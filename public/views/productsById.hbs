@@ -1,0 +1,20 @@
+<div class="container p-4 my-5 bg-light" id="listaProductos">
+  <h1 style="color:blue">Producto id: {{productFinded.id}}</h1><br>
+  <table class="table table-dark">
+    <thead>
+      <th>Código</th>
+      <th>Nombre</th>
+      <th>Precio</th>
+      <th>Foto</th>
+      <th></th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{productFinded.code}}</td>
+        <td>{{productFinded.title}}</td>
+        <td>{{productFinded.price}}</td>
+        <td><img src="{{productFinded.thumbnail}}" height="50rem"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
